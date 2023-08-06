@@ -63,10 +63,6 @@ body:
       placeholder: |
         - Custom ROM: https://wiki.lineageos.org/devices/sargo
         - Recovery: https://twrp.me/google/googlepixel3a.html
-      value: |
-        - Custom ROM:
-        - Recovery:
-        - Stock firmware (if needed & existing):
       render: Markdown
     validations:
       required: false
