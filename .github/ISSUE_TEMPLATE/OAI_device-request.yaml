@@ -18,7 +18,10 @@ body:
         required: true
   - type: markdown
     attributes:
-      value: "Please input your device's details below:"
+      value: "---"
+  - type: markdown
+    attributes:
+      value: "**Please input your device's details below:**"
   - type: input
     attributes:
       label: Brand
@@ -46,4 +49,4 @@ body:
       description: The model name of your device (only required, if there are several models)
       placeholder: GVU6C
     validations:
-      required: true
+      required: false
