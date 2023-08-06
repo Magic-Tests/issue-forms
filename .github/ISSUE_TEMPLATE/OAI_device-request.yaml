@@ -9,6 +9,9 @@ body:
   - type: markdown
     attributes:
       value: "To get your device supported, please take the time to fill out this form."
+  - type: markdown
+    attributes:
+      value: "|"
   - type: checkboxes
     attributes:
       label: Is your device already requested?
