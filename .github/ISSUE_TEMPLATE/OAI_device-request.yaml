@@ -16,18 +16,34 @@ body:
       options:
       - label: I have searched the existing issues
         required: true
-  - type: textarea
+  - type: markdown
     attributes:
-      label: Environment
-      description: |
-        examples:
-          - **Brand**: Google
-          - **Phone name**: Pixel 7
-          - **Device code**: panther
-      value: |
-        - Brand:
-        - Phone name:
-        - Device code:
-      render: Markdown
+      value: "Please input your device's details below:"
+  - type: input
+    attributes:
+      label: Brand
+      description: The brand / manufacturer of your device
+      placeholder: Google
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Name
+      description: The name of your device
+      placeholder: Pixel 7
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Device code
+      description: The device code OAI gave you in the error message
+      placeholder: panther
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Model
+      description: The model name of your device (only required, if there are several models)
+      placeholder: GVU6C
     validations:
       required: true
