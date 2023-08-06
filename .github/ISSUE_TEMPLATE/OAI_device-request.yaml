@@ -1,6 +1,6 @@
 name: Device support request
 description: Request support for a new device
-#title:
+title: Add support for <DEVICE>
 labels: ["device"]
 body:
   - type: markdown
