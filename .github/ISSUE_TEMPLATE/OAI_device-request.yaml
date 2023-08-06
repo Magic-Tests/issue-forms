@@ -15,8 +15,7 @@ body:
       description: Please search to see if an issue for your device already exists.
       options:
       - label: I have searched the existing issues
-    validations:
-      required: true
+        required: true
   - type: textarea
     attributes:
       label: Environment
